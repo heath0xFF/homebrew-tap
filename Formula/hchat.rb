@@ -1,16 +1,16 @@
 class Hchat < Formula
   desc "Lightweight desktop chat client for local LLMs"
   homepage "https://github.com/heath0xFF/hChat"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/heath0xFF/hChat/releases/download/v#{version}/hchat-macos-arm64.tar.gz"
-      sha256 "3c02dfd339601357aa11bba4c07368e2320861effaa3b321154197bbf1a3c25c"
+      sha256 "63252604c60b25bdd41d551e1099c708186edfa6a442af82d460edecea2751a4"
     else
       url "https://github.com/heath0xFF/hChat/releases/download/v#{version}/hchat-macos-x86_64.tar.gz"
-      sha256 "7e065e1143ab8d523fdadf21b2400a059a739abcecc86dea52e22ec947ef3ea6"
+      sha256 "eeeca154ed060b762ca08526bda0511e1659daa0ade7d0b83d8dfc1be8690088"
     end
   end
 
