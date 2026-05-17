@@ -1,9 +1,9 @@
 cask "hchat" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.9.3"
-  sha256 arm:   "2a07cd3cbe014edff5f76558a0a03e2d74c6a5ca884c7f27fcd5b185d1f52366",
-         intel: "ed6d6a2f05ac6e01ba1e9f2505b697d8ba0080a0ebd2c3b131fbe628eb13380c"
+  version "0.9.4"
+  sha256 arm:   "f08ff94cc198e34e35f8f86a71354f9594e9b6ebf6cfd93ce1e26a2810d785a5",
+         intel: "3fc4c27d7477d806098c0b1800663844af101eac0cace255d1a99050c29a5516"
 
   url "https://github.com/heath0xFF/hChat/releases/download/v#{version}/hChat-#{arch}.app.zip"
   name "hChat"
